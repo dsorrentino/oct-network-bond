@@ -8,8 +8,8 @@ Deleting a policy does **not** remove a live Linux bond. **Remove** applies `sta
 
 - **Plugin ID:** `oct-network-bond`
 - **Version:** `0.2.2`
-- **Image:** `quay.io/cjanisze/oct-network-bond:0.2.2-ocp4.22` and `:0.2.2-ocp4.21` (`<semver>-ocp<major.minor>`; always publish both minors; aliases `:0.1.2` / `:4.22` may still exist)
-- **Git:** https://github.com/OOsemka/oct-network-bond — `main` / optional `ocp-4.22` when PF/API differ; tags `v1.x.x`
+- **Image:** `quay.io/openshift-community-tools/oct-network-bond:0.2.2-ocp4.22` and `:0.2.2-ocp4.21` (`<semver>-ocp<major.minor>`; always publish both minors; aliases `:0.1.2` / `:4.22` may still exist)
+- **Git:** https://github.com/openshift-community-tools/oct-network-bond — `main` / optional `ocp-4.22` when PF/API differ; tags `v1.x.x`
 
 Validated on OpenShift **4.22** (PatternFly 6). Open from **Community Tools → Network** after the storefront (`oct-storefront`) and this plugin are enabled.
 
