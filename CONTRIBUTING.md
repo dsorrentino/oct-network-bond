@@ -31,7 +31,7 @@ podman build -t quay.io/<you>/oct-network-bond:dev -f Containerfile .
 podman push quay.io/<you>/oct-network-bond:dev
 
 # Deploy with your image instead of the released one
-sed 's|quay.io/cjanisze/oct-network-bond:[^ ]*|quay.io/<you>/oct-network-bond:dev|' deploy/install.yaml | oc apply -f -
+sed 's|quay.io/openshift-community-tools/oct-network-bond:[^ ]*|quay.io/<you>/oct-network-bond:dev|' deploy/install.yaml | oc apply -f -
 
 # Enable the plugin in the console (skip if the storefront already enabled it)
 oc patch console.operator cluster --type=json \

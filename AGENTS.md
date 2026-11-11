@@ -9,8 +9,8 @@ Do not add Community Tools category nav here. Users open this page from the stor
 | | Value |
 | --- | --- |
 | Plugin ID / ConsolePlugin / `package.json` `consolePlugin.name` | **`oct-network-bond`** |
-| Image | `quay.io/cjanisze/oct-network-bond:0.2.2-ocp4.22` (`<semver>-ocp<major.minor>`; optional aliases `:0.2.0` / `:4.22`) |
-| Git | https://github.com/OOsemka/oct-network-bond |
+| Image | `quay.io/openshift-community-tools/oct-network-bond:0.2.2-ocp4.22` (`<semver>-ocp<major.minor>`; optional aliases `:0.2.0` / `:4.22`) |
+| Git | https://github.com/openshift-community-tools/oct-network-bond |
 | i18n | `plugin__oct-network-bond` |
 
 Old ID `community-network-bond` needs a cluster reinstall. Do not `oc apply` unless asked.
@@ -63,7 +63,7 @@ Uses `useNavigate` from `react-router-dom-v5-compat` (^6.30.0). Breadcrumb and "
 
 ## Storefront registration
 
-Catalog PR against `oct-storefront` `catalog/community.yaml` (`source: community`, `category: network`, `spec.git: https://github.com/OOsemka/oct-network-bond`, `spec.versions[]` with `version` + `openshift` + combined `image`). `spec.href` must stay `/community-tools/network/bond` unless `console-extensions.json` changes.
+Catalog PR against `oct-storefront` `catalog/community.yaml` (`source: community`, `category: network`, `spec.git: https://github.com/openshift-community-tools/oct-network-bond`, `spec.versions[]` with `version` + `openshift` + combined `image`). `spec.href` must stay `/community-tools/network/bond` unless `console-extensions.json` changes.
 
 ## Add must go Ready
 
